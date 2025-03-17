@@ -30,7 +30,7 @@ export const About = () => {
               className="about-right w-full lg:w-1/2 mt-7">
               <div className="about-para">
                 <p>I am a passionate Full Stack Web Developer with a knack for building dynamic and responsive web applications. I specialize in both front-end and back-end development, combining modern technologies to create seamless user experiences. </p>
-                <p>I am also good in Problem Solving. I achieved Proficiency in problem solving by solving 500+ DSA Problems.</p>
+                <p>I am also good in Problem Solving. I achieved Proficiency in problem solving by solving 900+ DSA Problems.</p>
               </div>
               <div className="about-skills mt-3">
                 <div className="about-skill"><p>Backend Development</p><hr style={{ width: "95%" }} /></div>
