@@ -8,6 +8,8 @@ import { FaDocker } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import {animate, motion} from "framer-motion"
+import { SiApachekafka } from "react-icons/si";
+import { SiKubernetes } from "react-icons/si";
 
 const iconVariants=(duration)=>({
     intial:{y:-10},
@@ -68,14 +70,22 @@ export const Skill=()=>{
                 initial="initial"
                 animate="animate"
                  className="rounded-2xl border-4 border-nuetral-800 p-3">
-                    <DiRedis className="text-6xl text-red-700"/>
+                    {/* <DiRedis className="text-6xl text-red-700"/> */}
+                    <SiApachekafka className="text-6xl " />
                 </motion.div>
                 <motion.div
                 variants={iconVariants(2.5)}
                 initial="initial"
                 animate="animate"
                  className="rounded-2xl border-4 border-nuetral-800 p-3">
-                    <FaDocker className="text-6xl"/>
+                    <FaDocker className="text-6xl text-cyan-600"/>
+                </motion.div>
+                <motion.div
+                variants={iconVariants(2.5)}
+                initial="initial"
+                animate="animate"
+                 className="rounded-2xl border-4 border-nuetral-800 p-3">
+                    <SiKubernetes className="text-6xl text-blue-600"/>
                 </motion.div>
                 <motion.div
                 variants={iconVariants(3)}
