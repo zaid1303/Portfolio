@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1 style={{marginTop:"10px"}}>{`Hi! I'm Zaid`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Web Developer", "Web Application Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I see lots of website since my childhood and I always curious to know how these website are actually working behind the scenes so in my college I started Development and i glad to say that i am good in it.My journey in web development has equipped me with skills in designing robust architectures, optimizing performance, and bringing innovative ideas to life. I thrive on solving complex problems and continuously learning to stay ahead in the ever-evolving tech landscape</p>
-                  <a href="https://drive.google.com/file/d/1fL2sZ9W4MN-62rox7Tkx52Ea1uKJ9IXP/view" style={{"textDecoration":"none"} }>
+                  <a href="https://drive.google.com/file/d/1UJH3fvyzSRmj7i_c_xy-vSitSfpf1bRM/view" style={{"textDecoration":"none"} }>
                   <button style={{borderRadius:"50px", padding:"15px", marginTop:"10px"}} >Resume/CV <ArrowRightCircle size={25} /></button>
                   </a>
               </div>}
